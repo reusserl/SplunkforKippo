@@ -11,18 +11,17 @@ Authors
 
 L\. Reusser 
 
-Contributors
-=============
-
 Requirements
 =============
 
 Splunk 6.x
 
-Printscreen
-===========
+Printscreens
+============
 
 .. image:: images/splunk_for_kippo_dashboard.jpg
+.. image:: images/splunk_for_kippo_login_sessions.jpg
+.. image:: images/splunk_for_kippo_weird_passwords.jpg
 
 Installation
 ============
