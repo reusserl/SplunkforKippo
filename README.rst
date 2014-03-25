@@ -14,6 +14,10 @@ L\. Reusser
 Contributors
 =============
 
+Requirements
+=============
+
+Splunk 6.x
 
 Installation
 ============
