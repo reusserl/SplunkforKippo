@@ -1,0 +1,70 @@
+[app/ui]
+version = 6.0
+modtime = 1387191052.522023000
+
+[app/launcher]
+version = 6.0
+modtime = 1387191052.524381000
+
+[savedsearches/Passwords%20by%20IP%20Address]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.0
+modtime = 1387215569.316587000
+
+[savedsearches/Kippo%20Error]
+owner = admin
+version = 6.0
+modtime = 1387367312.987023000
+
+[eventtypes/logout]
+export = none
+owner = admin
+version = 6.0
+modtime = 1390034569.230732000
+
+[views/overview]
+owner = admin
+version = 6.0
+modtime = 1390052327.925190000
+
+[views/passwords]
+owner = admin
+version = 6.0
+modtime = 1390126956.417898000
+
+[savedsearches/password_by_ip_country]
+access = read : [ kippo_power, kippo_user ], write : [ kippo_power ]
+export = none
+owner = admin
+version = 6.0
+modtime = 1394635036.934070000
+
+[savedsearches/ip_unique_by%20country]
+access = read : [ kippo_power, kippo_user ], write : [ kippo_power ]
+export = none
+owner = admin
+version = 6.0.2
+modtime = 1395176798.205997000
+
+[savedsearches/ip_by_country]
+access = read : [ kippo_power, kippo_user ], write : [ kippo_power ]
+export = none
+owner = admin
+version = 6.0.2
+modtime = 1395176816.351675000
+
+[savedsearches/Attacker%20IP%20Country%20Code%20last%2024h]
+access = read : [ kippo_user ], write : [ kippo_power ]
+export = none
+owner = admin
+version = 6.0.2
+modtime = 1395771388.332261000
+
+[savedsearches/Weird%20Passwords%20last%2024h]
+access = read : [ kippo_power, kippo_user ], write : [ kippo_power ]
+export = none
+owner = admin
+version = 6.0.2
+modtime = 1395771694.497868000

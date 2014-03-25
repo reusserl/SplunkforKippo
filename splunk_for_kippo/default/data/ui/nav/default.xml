@@ -1,0 +1,35 @@
+<nav search_view="search" color="#65A637">
+  <view name="overview" default='true' />
+  <view name="search" default='false' />
+  <collection label="Reports">
+    <view name="reports" />
+    <saved name="Number of passwords per IP address last 24h" />
+    <saved name="Number of passwords per IP address last week" />
+    <saved name="Number of passwords per IP address last month" />
+    <saved name="Passwords by IP Address" />
+    <saved name="Passwords by IP Address last 24h" />
+    <saved name="Password by IP address and country last 24h" />
+    <saved name="Password by IP address and country last week" />
+    <saved name="Weird passwords last 24h" />
+    <saved name="Weird passwords last week" />
+    <saved name="Commands by IP Address" />
+    <saved name="Commands by IP Address last 24h" />
+    <saved name="Login Sessions last 24h" />
+    <saved name="Login Sessions last 30 Days" />
+    <saved name="Top 100 Passwords" />
+    <saved name="Top 100 Passwords last 24h" />
+    <saved name="Top 20 Attackers" />
+    <saved name="Top 20 Attackers last 24h" />
+    <saved name="Attacker IP address country code last 24h" />
+    <saved name="Attacker IP address country code last week" />
+  </collection>  
+  <collection label="Alerts">
+    <view name="alerts" />
+    <saved name="Kippo Successful Login" />
+  </collection>  
+  <collection label="Dashboards">
+    <view name="dashboards" />
+    <view name="overview" />
+    <view name="passwords" />
+  </collection>  
+</nav>
