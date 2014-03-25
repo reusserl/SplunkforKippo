@@ -19,6 +19,11 @@ Requirements
 
 Splunk 6.x
 
+Printscreen
+===========
+
+.. image:: images/splunk_for_kippo_dashboard.jpg
+
 Installation
 ============
 
