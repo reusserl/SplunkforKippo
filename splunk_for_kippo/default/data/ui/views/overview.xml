@@ -3,7 +3,7 @@
   <row>
     <single>
       <title>Number of attacker ip addresses  last hour</title>
-      <searchString>index=kippo eventtype="login_attempt" | stats dc(source_ip)</searchString>
+      <searchString>index=kippo eventtype="login_attempt" | stats dc(src_ip)</searchString>
       <earliestTime>-60m@m</earliestTime>
       <latestTime>now</latestTime>
       <option name="charting.axisTitleX.visibility">visible</option>
@@ -22,7 +22,7 @@
     </single>
     <single>
       <title>Number of attacker ip addresses last 24h</title>
-      <searchString>index=kippo eventtype="login_attempt" | stats dc(source_ip)</searchString>
+      <searchString>index=kippo eventtype="login_attempt" | stats dc(src_ip)</searchString>
       <earliestTime>-24h@h</earliestTime>
       <latestTime>now</latestTime>
       <option name="charting.axisTitleX.visibility">visible</option>
@@ -41,7 +41,7 @@
     </single>
     <single>
       <title>Number of attacker ip addresses last week</title>
-      <searchString>index=kippo eventtype="login_attempt" | stats dc(source_ip)</searchString>
+      <searchString>index=kippo eventtype="login_attempt" | stats dc(src_ip)</searchString>
       <earliestTime>-7d@h</earliestTime>
       <latestTime>now</latestTime>
       <option name="charting.axisTitleX.visibility">visible</option>
@@ -60,7 +60,7 @@
     </single>
     <single>
       <title>Number of attacker ip addresses last month</title>
-      <searchString>index=kippo eventtype="login_attempt" | stats dc(source_ip)</searchString>
+      <searchString>index=kippo eventtype="login_attempt" | stats dc(src_ip)</searchString>
       <earliestTime>-30d@d</earliestTime>
       <latestTime>now</latestTime>
       <option name="charting.axisTitleX.visibility">visible</option>
