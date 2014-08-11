@@ -1,7 +1,7 @@
 SplunkforKippo
 ==============
 
-Splunk App for Kippo SSH Honeypot
+Splunk® App for Kippo SSH Honeypot
 
 :Version: 1.0.0
 :Source: https://github.com/reusserl/SplunkforKippo
